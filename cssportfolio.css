@@ -17,6 +17,10 @@ body {
 .link{
     color:#abc4ff
 }
+.link2{
+    color:#abc4ff;
+    text-decoration: none;
+}
 header {
     background-color: #3C5178;
     color: #EEEEEE;
