@@ -1,0 +1,63 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001233;
+}
+
+.textotitulo{
+    color:#cd7f32
+}
+.textocolorido{
+    color: #FFFFFF;
+}
+.textoprojeto{
+    color:#dddddd
+}
+.link{
+    color:#abc4ff
+}
+header {
+    background-color: #3C5178;
+    color: #EEEEEE;
+    padding: 20px;
+    text-align: center;   
+    border-radius: 5px;
+}
+
+.fotodeperfil {
+    width: 150px;
+    height: auto; 
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #999999;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #102B5E;
+    border-radius: 20px;
+}
+.projects {
+    background-color: #102B5E;
+}
+.content{
+    margin-left: 220px;
+    padding: 30px;
+    width: calc(100% -220px);  
+    margin-top: 20px;
+    width: 100%;
+    color: #001233;
+}
+.contato {
+    background-color: #102B5E;
+}
+footer {
+    background-color: #3C5178;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 4px;
+    bottom: 0;
+    width: 100%;
+}
