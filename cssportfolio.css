@@ -1,67 +1,119 @@
-body {
-    font-family:'Times New Roman', Times, serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     background-color: #001233;
 }
 
-.textotitulo{
-    color:#cd7f32
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fffbfb;
 }
-.textocolorido{
-    color: #FFFFFF;
+
+header {
+    background: #3C5178;
+    color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
-.textoprojeto{
-    color:#dddddd
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.link{
-    color:#abc4ff
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.hero-content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    color:#dddddd;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
 }
 .link2{
     color:#abc4ff;
     text-decoration: none;
 }
-header {
-    background-color: #3C5178;
-    color: #EEEEEE;
-    padding: 20px;
-    text-align: center;   
+.textocolorido{
+    color: #FFFFFF;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.fotodeperfil {
-    width: 150px;
-    height: auto; 
-    border-radius: 100%;
-    border: 2px solid #FFFFFF;
+button[type="submit"] {
+    padding: 20px 30px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
 }
-section {
-    padding: 20px;
-    margin: 20px;
-    border: 2px solid #999999;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: #102B5E;
-    border-radius: 20px;
+
+button[type="submit"]:hover {
+    background: #555;
 }
-.projects {
-    background-color: #102B5E;
-}
-.content{
-    margin-left: 220px;
-    padding: 30px;
-    width: calc(100% -220px);  
-    margin-top: 20px;
-    width: 100%;
-    color: #001233;
-}
-.contato {
-    background-color: #102B5E;
-}
-footer {
-    background-color: #3C5178;
-    color: #EEEEEE;
+.mensagem{
     text-align: center;
-    padding: 4px;
-    bottom: 0;
-    width: 100%;
+}
+.copy{
+    text-align: center;
+    color: #FFFFFF;
 }
