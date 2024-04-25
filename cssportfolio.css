@@ -7,7 +7,7 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 20px;
     color: #fffbfb;
 }
@@ -116,4 +116,24 @@ button[type="submit"]:hover {
 @media only screen and (max-width: 600px) {
     /* Estilos específicos para dispositivos móveis com largura máxima de 600px */
     /* Por exemplo: ajustar largura de elementos, ocultar/mostrar conteúdo, etc. */
+}
+.eu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center-top;
+    height: 100vh;
+}
+
+.eu{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+.eu img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
