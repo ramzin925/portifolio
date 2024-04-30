@@ -133,7 +133,7 @@ button[type="submit"]:hover {
     width: 100%;
     height: auto;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     /* Estilos específicos para dispositivos móveis com largura máxima de 600px */
     /* Por exemplo: ajustar largura de elementos, ocultar/mostrar conteúdo, etc. */
 }
