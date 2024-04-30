@@ -10,6 +10,7 @@ body {
     margin: auto;
     padding: 0 20px;
     color: #fffbfb;
+    font-size: 20px;
 }
 
 header {
@@ -55,6 +56,7 @@ section {
 .hero-content {
     text-align: center;
     color: #ffffff;
+    font-size: 30px;
 }
 
 .projects {
@@ -146,4 +148,12 @@ button[type="submit"]:hover {
 .textomenu{
     font-size: 18px;
     text-align: right;
+}
+.hero-content{
+    font-size: 20px;
+
+}
+.container{
+    font-size: 20px;
+
 }
