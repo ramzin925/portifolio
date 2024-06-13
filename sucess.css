@@ -1,0 +1,55 @@
+body{
+    background-color: #001233 !important;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    
+}
+.Recebido {
+    text-align: center;
+    padding: 20px;
+    width: 80% !important;
+    height: 40% !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #fff;
+    background-color: #1d2b47;
+}
+.Botao{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px !important;
+    background-color: #3a06c9;
+    color: white;
+    width: 60%;
+}
+button:hover {
+    background-color: #300f8a;
+}
+@media only screen and (max-width: 600px){
+    .Recebido{
+        width: 70%;
+        height: 55%;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .Recebido{
+        width: 80%;
+    }
+}
